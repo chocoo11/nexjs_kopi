@@ -112,7 +112,7 @@ const produk = () => {
       <div className="max-w-screen-xl flex flex-wrap mx-auto py-6">
         <div className="flex justify-between w-full items-center px-4">
           <div className="flex">
-            <div className="text-2xl font-bold">Coffe</div>
+            <div className="text-2xl font-bold">Menu KAVA</div>
           </div>
         </div>
         <div className="flex flex-wrap py-6">
@@ -121,7 +121,7 @@ const produk = () => {
               key={menuCoffe.nim}
               className="w-full lg:w-1/5 px-4 py-3 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
             >
-              <div className="bg-brown border border-gray-200 rounded-lg shadow">
+              <div className="bg-cyan border border-gray-200 rounded-lg shadow">
                 <img className="rounded-t-lg" src={menuCoffe.foto} alt="" />
                 <div className="p-2.5">
                   <div className="flex justify-between mb-2">

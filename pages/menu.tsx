@@ -3,7 +3,7 @@ import { Fragment } from 'react';
 import { Menu, Transition } from '@headlessui/react';
 import axios from 'axios';
 import Image from 'next/image';
-import dots from '../assets/dots.png';
+import Putihdots from '../assets/putihdots.png';
 import PopUpHapus from './PopUpHapus';
 import EditPopUp from './EditPopUp';
 import Modal from './Modal';
@@ -134,12 +134,12 @@ const Menucoffe = () => {
       <div className="max-w-screen-xl flex flex-wrap mx-auto py-6">
         <div className="flex justify-between w-full items-center px-4">
           <div className="flex">
-            <div className="text-2xl font-bold">Coffe</div>
+            <div className="text-2xl font-bold">New Menu</div>
           </div>
           <button
           onClick={() => setShowAdd(true)}
             type="button"
-            className="text-white bg-[#fbbf24] hover:bg-[#d97706] focus:ring-4 focus:ring-red-500 font-medium rounded-lg px-6 py-2 focus:outline-none"
+            className="text-white bg-[#06b6d4] hover:bg-[#164e63] focus:ring-4 focus:ring-red-500 font-medium rounded-lg px-6 py-2 focus:outline-none"
           >
             Add Menu
           </button>
@@ -150,11 +150,11 @@ const Menucoffe = () => {
               key={menuCoffe.nim}
               className="w-full lg:w-1/5 px-4 py-3 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
             >
-              <div className="bg-white border border-gray-200 rounded-lg shadow">
+              <div className="bg-cyan border border-gray-200 rounded-lg shadow">
                 <img className="rounded-t-lg" src={menuCoffe.foto} alt="" />
                 <div className="p-2.5">
                   <div className="flex justify-between mb-2">
-                    <div className="text-base font-bold tracking-tight text-gray-900">
+                    <div className="text-base font-bold tracking-tight text-white">
                       {menuCoffe.Nama}
                     </div>
                     <Menu as="div" className="relative inline-block text-left">
@@ -164,7 +164,7 @@ const Menucoffe = () => {
                             className="object-contain"
                             width={16}
                             height={16}
-                            src={dots}
+                            src={Putihdots}
                             alt="Dots"
                           />
                         </Menu.Button>
@@ -217,7 +217,7 @@ const Menucoffe = () => {
                       </Transition>
                     </Menu>
                   </div>
-                  <p className="mb-3 text-justify text-sm text-gray-700">
+                  <p className="mb-3 text-justify text-sm text-white">
                     <TextTruncate text={menuCoffe.alamat} maxLength={15} />
                   </p>
                 </div>

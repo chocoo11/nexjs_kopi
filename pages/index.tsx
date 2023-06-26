@@ -5,6 +5,7 @@ import Produk from './produk'
 import Splitscreen from './splitscreen'
 import Footer from './Footer'
 
+
 export default function Home() {
   return (
     <>

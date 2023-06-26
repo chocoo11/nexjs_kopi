@@ -93,7 +93,7 @@ const EditPopUp = ({ editData,handleSubmitEdit, onClose }) => {
         </button>
         <button
           type="submit"
-          className="inline-flex justify-center rounded-md bg-brown px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-emerald-600 sm:ml-3 sm:w-auto"
+          className="inline-flex justify-center rounded-md bg-cyan px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-emerald-600 sm:ml-3 sm:w-auto"
         >
           Save
         </button>

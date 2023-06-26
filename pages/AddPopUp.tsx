@@ -94,7 +94,7 @@ const AddPopUp = ({ handleSubmitAdd, onClose }) => {
         </button>
         <button
           type="submit"
-          className="inline-flex justify-center rounded-md bg-brown px-5 py-2 text-sm font-semibold text-white shadow-sm hover:bg-orange-600 sm:ml-3 sm:w-auto"
+          className="inline-flex justify-center rounded-md bg-cyan px-5 py-2 text-sm font-semibold text-white shadow-sm hover:bg-orange-600 sm:ml-3 sm:w-auto"
         >
           Save
         </button>

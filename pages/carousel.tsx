@@ -1,10 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
-import coffee1 from '../assets/coffee1.jpg';
-import coffee2 from '../assets/coffee2.jpg';
-import coffee3 from '../assets/coffee3.jpg';
-import coffee4 from '../assets/coffee4.jpg';
-import coffee5 from '../assets/coffee5.jpg';
+import True1 from '../assets/true1.jpeg';
+import True2 from '../assets/true2.jpeg';
+import True3 from '../assets/true3.jpeg';
 
 const carousel = () => {
   const [activeItem, setActiveItem] = useState(0);
@@ -63,7 +61,7 @@ const carousel = () => {
           data-carousel-item
         >
           <Image
-            src={coffee1}
+            src={True1}
             className="object-cover w-full h-full"
             alt=""
           />
@@ -76,7 +74,7 @@ const carousel = () => {
           data-carousel-item
         >
           <Image
-            src={coffee2}
+            src={True2}
             className="object-cover w-full h-full"
             alt=""
           />
@@ -89,33 +87,7 @@ const carousel = () => {
           data-carousel-item
         >
           <Image
-            src={coffee3}
-            className="object-cover w-full h-full"
-            alt=""
-          />
-        </div>
-        {/* Item 4 */}
-        <div
-          className={`absolute w-full h-full transition-opacity ${
-            activeItem === 3 ? 'opacity-100' : 'opacity-0'
-          }`}
-          data-carousel-item
-        >
-          <Image
-            src={coffee4}
-            className="object-cover w-full h-full"
-            alt=""
-          />
-        </div>
-        {/* Item 5 */}
-        <div
-          className={`absolute w-full h-full transition-opacity ${
-            activeItem === 3 ? 'opacity-100' : 'opacity-0'
-          }`}
-          data-carousel-item
-        >
-          <Image
-            src={coffee5}
+            src={True3}
             className="object-cover w-full h-full"
             alt=""
           />

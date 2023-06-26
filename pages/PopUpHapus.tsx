@@ -17,7 +17,7 @@ const PopUpHapus = ({ handleDelete, onClose }) => {
         </button>
         <button
           type="button"
-          className="inline-flex justify-center rounded-md bg-brown px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-600 sm:ml-3 sm:w-auto"
+          className="inline-flex justify-center rounded-md bg-cyan px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-600 sm:ml-3 sm:w-auto"
           onClick={() => handleDelete(true)}
         >
           Setuju
